@@ -113,7 +113,7 @@ switch($nama) {
                  $pesan = $_POST['nama']." adalah orang Ciamis";
              break;
              case "Galih purnama":
-                 $pesan = $_POST['nama']." berasal dari pulau jawa";
+                 $pesan = $_POST['nama']." berasal dari pulau jawa ";
              break;
              default :
                   $pesan = $_POST['nama']." darimana ya ?";
