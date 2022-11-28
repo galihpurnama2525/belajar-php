@@ -41,9 +41,11 @@ if (isset ($_POST["submit"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Data Mahasiwa</title>
+    <title>Data Mahasiwa</title>
 </head>
 <body>
+    <h1>Data Mahasiswa</h1>
+    <a href="insert.php">Tambah Data</a>
     <form action="insert.php" method="post">
     NIM: <input type="text" name="nim"><br>
     Nama: <input type="text" name="nama" ><br>
